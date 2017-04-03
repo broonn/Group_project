@@ -1,0 +1,4 @@
+UnitTest.EFTests.Test_Add_ReturnCheckAdditionOfProducts_WhenAdded
+UnitTest.EFTests.Test_Add_ReturnNewAddedProduct_WhenAdded
+UnitTest.EFTests.Test_GetAll_ReturnProductInCart_WhenCalled
+UnitTest.EFTests.Test_GetAll_ReturnProductTitle_WhenCalled

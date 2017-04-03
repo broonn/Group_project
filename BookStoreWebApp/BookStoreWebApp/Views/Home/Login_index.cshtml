@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Book Store";
+}
+
+@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+   
+    <div class="jumbotron">
+        <h1>Book Store</h1>
+        <p class="lead">An online store dedicated to books</p>
+
+    </div>
+
+
+
+    <div class="col-md-4">
+        <h2>Find Products</h2>
+        <p>From learning alphabets to reading poems</p>
+        <p><a class="btn btn-default" href="http://localhost:53507/Product/Index">Browse Products &raquo;</a></p>
+    </div>
+
+}
+

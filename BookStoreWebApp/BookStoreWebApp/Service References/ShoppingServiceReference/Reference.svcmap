@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e60c4ad8-a9f7-4d8e-ae50-72cce5dd9463" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="ModelPoco" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63201/ShoppingCartService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ShoppingCartService.xsd" MetadataType="Schema" ID="f5957058-f3ce-40d2-976c-6dbe369cf761" SourceId="1" SourceUrl="http://localhost:63201/ShoppingCartService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ShoppingCartService.disco" MetadataType="Disco" ID="d91ed582-6431-48b9-a598-7b1d437cf276" SourceId="1" SourceUrl="http://localhost:63201/ShoppingCartService.svc?disco" />
+    <MetadataFile FileName="ShoppingCartService1.xsd" MetadataType="Schema" ID="0c22dc3a-2ffb-4fe5-bd35-8d2617193bf8" SourceId="1" SourceUrl="http://localhost:63201/ShoppingCartService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ShoppingCartService2.xsd" MetadataType="Schema" ID="6e9d05f0-bcd7-4756-a21c-daaa9d753cda" SourceId="1" SourceUrl="http://localhost:63201/ShoppingCartService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ShoppingCartRepository.wsdl" MetadataType="Wsdl" ID="ca80ac96-e46e-4ba2-b156-faa1296326f6" SourceId="1" SourceUrl="http://localhost:63201/ShoppingCartService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

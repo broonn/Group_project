@@ -1,0 +1,1 @@
+UnitTest.EFTests.Test_Add_ReturnNewAddedProduct_WhenCalled
